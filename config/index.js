@@ -15,7 +15,7 @@
   // 静态资源文件夹名称
   window.SITE_CONFIG['staticFileName'] = '180425';
   // cdn地址
-  window.SITE_CONFIG['cdnUrl'] = './' + window.SITE_CONFIG.staticFileName;
+  window.SITE_CONFIG['cdnUrl'] = '/' + window.SITE_CONFIG.staticFileName;
 })();
 
 /**
