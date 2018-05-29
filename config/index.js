@@ -2,21 +2,21 @@
  * 生产环境
  */
 ;(function () {
-  window.SITE_CONFIG = {};
+  window.SITE_CONFIG = {}
 
   // api接口请求地址
-  window.SITE_CONFIG['baseUrl'] = 'http://demo.renren.io/renren-fast';
+  window.SITE_CONFIG['baseUrl'] = ''
 
   // 嵌套iframe地址
-  window.SITE_CONFIG['nestIframeUrl'] = 'http://demo.renren.io/renren-fast';
+  window.SITE_CONFIG['nestIframeUrl'] = ''
   // 嵌套iframe路由名称列表
-  window.SITE_CONFIG['nestIframeRouteNameList'] = ['sql'];
+  window.SITE_CONFIG['nestIframeRouteNameList'] = ['sql']
 
   // 静态资源文件夹名称
-  window.SITE_CONFIG['staticFileName'] = '180426';
+  window.SITE_CONFIG['staticFileName'] = '180529'
   // cdn地址
-  window.SITE_CONFIG['cdnUrl'] = './' + window.SITE_CONFIG.staticFileName;
-})();
+  window.SITE_CONFIG['cdnUrl'] = './' + window.SITE_CONFIG.staticFileName
+})()
 
 /**
  * 动态加载初始资源
